@@ -52,10 +52,10 @@ public class Main {
         }
         System.out.println(".....................................");
         // Жынысы боюнча фильтрлөө
-        Studenty[] femaleStudents = peaksoft.onlyFemaleOrMaleGenders("Female");
+        Studenty[] femaleStudents = peaksoft.onlyFemaleOrMaleGenders("F");
         for (Studenty student : femaleStudents) {
             System.out.println("Female Student: " + student.getName());
-            System.out.println(".....................................");
-        }
+            
+        }System.out.println(".....................................");
     }
 }
